@@ -28,18 +28,41 @@ val isaias = List(1,4,5,7,7)
 val s = 0
 def ejercicio3(n:Int):Int={
      if (n == 7){
-          s = s+n*2
+          s = n*2
      }
      else{
           s = s+n
      }
-     return ejercicio3
+     
+}
+return s
 }
 ejercicio3(isaias(s))
 
 //Ejercicio 4
+val list= List(1,2,4,5,6) 
 
-def ejerci4(lista: List(Int):Boolean)
+def ejerci4(lista: List(Int):Boolean={
+ var inicio = 0
+ var final = 0
+     final = list.sum
+     
+     for(i<-Range(0,list.lenght)){
+     inicio = inicio+list(i)
+          final = final -list(i)
+          
+          if (inicio == final){
+          return true
+          }
+          else {return false
+                         
+     }
+          
+     }
+     
+}
+            
+
 
 
 //Ejercicio 5
